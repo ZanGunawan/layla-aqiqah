@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap");
+:root {
+  --colorPrimary: #1d0f03;
+  --colorSecondary: #FFBB0E;
+  --navbarColor: rgba( 29, 15, 3, 0.5);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 5000px;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background-color: rgba(29, 15, 3, 0.9) !important;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+#navbar .navbar .container .navbar-toggler {
+  border: none;
+  padding: 2px;
+}
+#navbar .navbar .container .navbar-toggler .line {
+  height: 2px;
+  width: 22px;
+  margin: 6px;
+  background: #fff;
+}
+#navbar .navbar .container span {
+  color: var(--colorSecondary);
+}
+#navbar .navbar .container .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+#navbar .navbar .container .collapse ul .dropdown button {
+  color: #fff;
+}
+#navbar .navbar .container .collapse ul .dropdown ul {
+  background-color: #1d0f03;
+}
+#navbar .navbar .container .collapse ul .dropdown ul li {
+  color: #fff;
+}
+#navbar .navbar .container .collapse ul li {
+  margin-left: 15px;
+}
+#navbar .navbar .container .collapse ul li a {
+  color: #fff;
+  transition: ease 0.3s;
+}
+#navbar .navbar .container .collapse ul li a:hover {
+  color: var(--colorSecondary);
+  transform: scale(1.1);
+}
+@media screen and (max-width: 392px) {
+  #navbar .navbar .container .collapse ul li .nav-link:hover {
+    transform: translateX(8px);
+  }
+}
+
+#hero {
+  height: 100vh;
+  background-image: url(../img/slider/1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero .hero {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(29, 15, 3, 0.7);
+}
+#hero .hero .judul {
+  color: #fff;
+}
+#hero .hero .judul h5 {
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+#hero .hero .judul h1 {
+  font-size: 120px;
+  font-weight: 700;
+}
+#hero .hero .judul p {
+  font-size: 16px;
+  width: 340px;
+  margin: 0 auto;
+}
+#hero .hero .judul .button .btn {
+  margin: 0 5px;
+}
+@media screen and (max-width: 392px) {
+  #hero .hero .judul h5 {
+    font-size: 14px;
+  }
+  #hero .hero .judul h1 {
+    font-size: 80px;
+  }
+  #hero .hero .judul p {
+    font-size: 14px;
+    width: 200px;
+  }
+  #hero .hero .judul .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #hero .hero .judul .button .btn {
+    width: -moz-max-content;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+#mengapa-kami {
+  padding: 50px 0;
+}
+#mengapa-kami .mengapa-kami h1 {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+#mengapa-kami .mengapa-kami .row .col .card {
+  border: none;
+  padding: 0 20px;
+}
+#mengapa-kami .mengapa-kami .row .col .card .card-body h5 {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

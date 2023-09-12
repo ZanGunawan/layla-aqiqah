@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+:root {
+    --colorPrimary: #1d0f03;
+    --colorSecondary: #FFBB0E;
+
+    --navbarColor: rgba( 29, 15, 3, 0.5); 
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 5000px;
+    scroll-behavior: smooth;
+}
+
+
+// navbar style
+#navbar {
+    background-color: rgba( 29, 15, 3, 0.9) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .navbar {
+        .container {
+            .navbar-toggler {
+                border: none;
+                padding: 2px;
+                .line {
+                    height: 2px;
+                    width: 22px;
+                    margin: 6px;
+                    background: #fff;
+                }
+            }
+            span {
+                color: var(--colorSecondary);
+            }
+            .navbar-brand {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #fff;
+            }
+            .collapse {
+                ul {
+                    .dropdown {
+                        button {
+                            color: #fff;
+                        }
+                        ul {
+                            background-color: #1d0f03;
+                            li {
+                                color: #fff;
+                            }
+                        }
+                    }
+                    li {
+                        margin-left: 15px;
+                        a {
+                            color: #fff;
+                            transition: ease .3s;
+                        }
+                        a:hover {
+                            color: var(--colorSecondary);
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 392px) {
+        .navbar {
+            .container {
+                .collapse {
+                    ul {
+                        li {
+                            .nav-link:hover {
+                                transform: translateX(8px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// carousel style
+#hero {
+    height: 100vh;
+    background-image: url(../img/slider/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .hero {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba( 29, 15, 3, 0.7);
+        .judul {
+            color: #fff;
+            h5 {
+                font-size: 16px;
+                letter-spacing: 5px;
+            }
+            h1 {
+                font-size: 120px;
+                font-weight: 700;
+            }
+            p {
+                font-size: 16px;
+                width: 340px;
+                margin: 0 auto;
+            }
+            .button {
+                .btn {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 392px) {
+        .hero {
+            .judul {
+                h5 {
+                    font-size: 14px;
+                }
+                h1 {
+                    font-size: 80px;
+                }
+                p {
+                    font-size: 14px;
+                    width: 200px;
+                }
+                .button {
+                    // background-color: red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .btn {
+                        width: max-content;
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#mengapa-kami {
+    padding: 50px 0;
+    .mengapa-kami {
+        h1 {
+            font-size: 30px;
+            margin-bottom: 100px;
+        }
+        .row {
+            .col {
+                .card {
+                    border: none;
+                    padding: 0 20px;
+                    .card-body {
+                        h5 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
