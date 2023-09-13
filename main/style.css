@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
 :root {
   --colorPrimary: #1d0f03;
   --colorSecondary: #FFBB0E;
@@ -60,9 +61,13 @@ li {
 }
 #navbar .navbar .container .collapse ul .dropdown ul {
   background-color: #1d0f03;
+  border: none;
 }
 #navbar .navbar .container .collapse ul .dropdown ul li {
   color: #fff;
+}
+#navbar .navbar .container .collapse ul .dropdown ul li a {
+  background-color: transparent;
 }
 #navbar .navbar .container .collapse ul li {
   margin-left: 15px;
@@ -75,8 +80,22 @@ li {
   color: var(--colorSecondary);
   transform: scale(1.1);
 }
+#navbar .navbar .container .collapse ul li .active {
+  color: var(--colorSecondary);
+  transform: scale(1.1);
+}
 @media screen and (max-width: 640px) {
+  #navbar .navbar .container .collapse ul .dropdown ul {
+    background-color: transparent;
+  }
+  #navbar .navbar .container .collapse ul .dropdown ul li a {
+    background-color: transparent;
+  }
   #navbar .navbar .container .collapse ul li .nav-link:hover {
+    transform: translateX(8px);
+  }
+  #navbar .navbar .container .collapse ul li .active {
+    color: var(--colorSecondary);
     transform: translateX(8px);
   }
 }
@@ -191,5 +210,65 @@ footer .footer .row div ul li a:hover {
   footer .footer .row div {
     padding: 0 40px;
     margin-top: 50px;
+  }
+}
+
+#about-us {
+  height: 100vh;
+  background-color: var(--colorSecondary);
+}
+#about-us .about-us .row .kiri {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in;
+}
+#about-us .about-us .row .kiri .about-desc h3 {
+  font-size: 60px;
+  font-family: "Fredoka", sans-serif;
+  margin-bottom: 20px;
+}
+#about-us .about-us .row .kiri .about-desc p {
+  line-height: 28px;
+  width: 450px;
+  margin-bottom: 40px;
+}
+#about-us .about-us .row .kanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (max-width: 640px) {
+  #about-us {
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #about-us .about-us .row .kiri {
+    margin-top: 100px;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #about-us .about-us .row .kiri .about-desc h3 {
+    font-size: 40px;
+  }
+  #about-us .about-us .row .kiri .about-desc p {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #about-us .about-us .row .kiri {
+    padding: 0 50px;
+  }
+  #about-us .about-us .row .kiri .about-desc .btn {
+    margin-bottom: 10px;
+  }
+  #about-us .about-us .row .kanan {
+    margin-top: -100px;
+    overflow-x: hidden;
+  }
+  #about-us .about-us .row .kanan img {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */

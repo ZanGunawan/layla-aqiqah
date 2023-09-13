@@ -1,0 +1,59 @@
+Halaman Beranda:
+
+Header: Menampilkan logo dan menu navigasi.
+Slider Gambar: Gambar-gambar menarik domba aqiqah dan kambing guling.
+Penawaran Terbaru: Informasi tentang penawaran khusus atau promosi terbaru.
+Link Cepat: Tautan langsung ke layanan utama, seperti "Domba Aqiqah" dan "Kambing Guling."
+
+Tentang Kami:
+
+Deskripsi Bisnis: Menjelaskan visi, misi, dan sejarah bisnis Anda.
+Sejarah Perusahaan: Cerita perkembangan bisnis Anda.
+Tim Manajemen: Informasi tentang tim manajemen Anda.
+Nilai-nilai dan Filosofi: Prinsip-prinsip yang mendasari bisnis Anda.
+
+Layanan:
+
+Domba Aqiqah:
+Deskripsi Layanan: Penjelasan lengkap tentang pelayanan domba aqiqah Anda.
+Harga dan Paket: Daftar harga dan pilihan paket yang tersedia.
+Galeri Foto Domba: Foto-foto domba aqiqah yang pernah Anda sediakan.
+Kambing Guling:
+Deskripsi Layanan: Penjelasan lengkap tentang pelayanan kambing guling Anda.
+Harga dan Paket: Daftar harga dan pilihan paket yang tersedia.
+Galeri Foto Kambing Guling: Foto-foto kambing guling yang pernah Anda sediakan.
+Layanan Tambahan (Opsional): Informasi tentang layanan tambahan seperti penyediaan katering atau peralatan.
+
+Harga:
+
+Daftar Harga Domba Aqiqah: Daftar harga detail untuk domba aqiqah.
+Daftar Harga Kambing Guling: Daftar harga detail untuk kambing guling.
+
+Galeri:
+
+Foto-foto Berkualitas Tinggi: Galeri foto yang menampilkan gambar-gambar berkualitas tinggi dari layanan Anda.
+Album Aqiqah: Kumpulan foto aqiqah yang pernah Anda lakukan.
+Album Kambing Guling: Kumpulan foto kambing guling yang pernah Anda sediakan.
+
+Kontak:
+
+Alamat Bisnis: Alamat lengkap bisnis Anda.
+Nomor Telepon: Nomor telepon yang dapat dihubungi.
+Formulir Kontak: Formulir yang memungkinkan pengguna mengirimkan pertanyaan atau pesan.
+Peta Lokasi: Peta interaktif yang menunjukkan lokasi bisnis Anda.
+
+Blog atau Berita (Opsional):
+
+Artikel Terkait dengan Domba Aqiqah dan Kambing Guling: Posting blog atau artikel tentang topik yang relevan dengan bisnis Anda.
+Tips Acara: Saran-saran tentang bagaimana menyelenggarakan acara aqiqah atau pesta dengan sukses.
+
+Testimoni Pelanggan:
+
+Kutipan dari Pelanggan Puas: Ulasan dan testimoni dari pelanggan yang puas.
+Foto Pelanggan (jika diizinkan): Foto pelanggan yang bersedia untuk dimuat.
+
+Footer:
+
+Informasi Hak Cipta: Tahun hak cipta dan informasi hukum lainnya.
+Tautan Sosial Media: Tautan ke halaman sosial media bisnis Anda.
+Tautan Penting Lainnya: Tautan ke halaman kebijakan privasi, syarat dan ketentuan, atau FAQ.
