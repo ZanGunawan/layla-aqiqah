@@ -353,6 +353,9 @@ footer {
     .service {
         .container {
             padding: 100px 0;
+            .kambing {
+                margin-bottom: 100px;
+            }
             .row {
                 .kiri {
                     display: flex;
@@ -408,6 +411,7 @@ footer {
     @media screen and (max-width:400px) {
         .service {
             .container {
+                overflow-x: hidden;
                 .kambing {
                     padding: 100px 0 5px;
                     .kiri {

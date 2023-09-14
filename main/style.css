@@ -284,6 +284,9 @@ footer .footer .row div ul li a:hover {
 #service .service .container {
   padding: 100px 0;
 }
+#service .service .container .kambing {
+  margin-bottom: 100px;
+}
 #service .service .container .row .kiri {
   display: flex;
   justify-content: center;
@@ -324,6 +327,9 @@ footer .footer .row div ul li a:hover {
   }
 }
 @media screen and (max-width: 400px) {
+  #service .service .container {
+    overflow-x: hidden;
+  }
   #service .service .container .kambing {
     padding: 100px 0 5px;
   }
