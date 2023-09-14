@@ -93,6 +93,9 @@ li {
                             color: var(--colorSecondary);
                             transform: scale(1.1);
                         }
+                        .active-dropdown {
+                            color: var(--colorSecondary);
+                        }
                     }
                 }
             }
@@ -342,6 +345,118 @@ footer {
         }
     }
 }
+
+// page services
+#service {
+    height: max-content;
+    background-color: var(--colorSecondary);
+    .service {
+        .container {
+            padding: 100px 0;
+            .row {
+                .kiri {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .about-desc {
+                        h3 {
+                            font-size: 60px;
+                            font-family: 'Fredoka', sans-serif;
+                            margin-bottom: 20px;
+                        }
+                        p {
+                            line-height: 28px;
+                            width: 450px;
+                            margin-bottom: 40px;
+                        }
+                    }
+                }
+            }    
+        }    
+    }
+    @media screen and (max-width:640px) {
+        height: max-content;
+        .service {
+            .container {
+                .kambing {
+                    .kiri {
+                        // margin-top: 100px;
+                        height: max-content;
+                        .about-desc {
+                            h3 {
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                }
+                .domba {
+                    margin-top: 100px;
+                    .kiri {
+                        order: 2;
+                        // margin-top: 100px;
+                        height: max-content;
+                        .about-desc {
+                            h3 {
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:400px) {
+        .service {
+            .container {
+                .kambing {
+                    padding: 100px 0 5px;
+                    .kiri {
+                        // background-color: #000;
+                        .about-desc {
+                            width: 300px;
+                            p {
+                                width: 300px;
+                            }
+                            .btn {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    .kanan {
+                        margin-top: -100px;
+                        overflow-x: hidden;
+                        img {
+                            width: 350px;
+                        }
+                    }
+                }
+                .domba {
+                    padding: 100px 0;
+                    .kiri {
+                        padding: 0;
+                        .about-desc {
+                            width: 300px;
+                            p {
+                                width: 300px;
+                            }
+                            .btn {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    .kanan {
+                        margin-top: -100px;
+                        overflow-x: hidden;
+                        img {
+                            width: 350px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 

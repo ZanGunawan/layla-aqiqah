@@ -84,6 +84,9 @@ li {
   color: var(--colorSecondary);
   transform: scale(1.1);
 }
+#navbar .navbar .container .collapse ul li .active-dropdown {
+  color: var(--colorSecondary);
+}
 @media screen and (max-width: 640px) {
   #navbar .navbar .container .collapse ul .dropdown ul {
     background-color: transparent;
@@ -270,5 +273,96 @@ footer .footer .row div ul li a:hover {
   }
   #about-us .about-us .row .kanan img {
     width: 400px;
+  }
+}
+
+#service {
+  height: -moz-max-content;
+  height: max-content;
+  background-color: var(--colorSecondary);
+}
+#service .service .container {
+  padding: 100px 0;
+}
+#service .service .container .row .kiri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service .service .container .row .kiri .about-desc h3 {
+  font-size: 60px;
+  font-family: "Fredoka", sans-serif;
+  margin-bottom: 20px;
+}
+#service .service .container .row .kiri .about-desc p {
+  line-height: 28px;
+  width: 450px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 640px) {
+  #service {
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #service .service .container .kambing .kiri {
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #service .service .container .kambing .kiri .about-desc h3 {
+    font-size: 40px;
+  }
+  #service .service .container .domba {
+    margin-top: 100px;
+  }
+  #service .service .container .domba .kiri {
+    order: 2;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #service .service .container .domba .kiri .about-desc h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #service .service .container .kambing {
+    padding: 100px 0 5px;
+  }
+  #service .service .container .kambing .kiri .about-desc {
+    width: 300px;
+  }
+  #service .service .container .kambing .kiri .about-desc p {
+    width: 300px;
+  }
+  #service .service .container .kambing .kiri .about-desc .btn {
+    margin-bottom: 10px;
+  }
+  #service .service .container .kambing .kanan {
+    margin-top: -100px;
+    overflow-x: hidden;
+  }
+  #service .service .container .kambing .kanan img {
+    width: 350px;
+  }
+  #service .service .container .domba {
+    padding: 100px 0;
+  }
+  #service .service .container .domba .kiri {
+    padding: 0;
+  }
+  #service .service .container .domba .kiri .about-desc {
+    width: 300px;
+  }
+  #service .service .container .domba .kiri .about-desc p {
+    width: 300px;
+  }
+  #service .service .container .domba .kiri .about-desc .btn {
+    margin-bottom: 10px;
+  }
+  #service .service .container .domba .kanan {
+    margin-top: -100px;
+    overflow-x: hidden;
+  }
+  #service .service .container .domba .kanan img {
+    width: 350px;
   }
 }/*# sourceMappingURL=style.css.map */
