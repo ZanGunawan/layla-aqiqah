@@ -529,6 +529,7 @@ footer .footer .row div ul li a:hover {
 }
 
 #kontak {
+  overflow-x: hidden;
   height: -moz-max-content;
   height: max-content;
   background-color: var(--colorSecondary);

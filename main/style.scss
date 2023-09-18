@@ -671,6 +671,7 @@ footer {
 
 // page kontak 
 #kontak {
+    overflow-x: hidden;
     height: max-content;
     background-color: var(--colorSecondary);
     .kontak {
