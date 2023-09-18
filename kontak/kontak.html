@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="main/style.css">
-    <link rel="shortcut icon" href="img/layla aqiqah logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../main/style.css">
+    <link rel="shortcut icon" href="../img/layla aqiqah logo.png" type="image/x-icon">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <title>Layla Aqiqah</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <header id="navbar">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Layla <span>Aqiqah</span></a>
+                <a class="navbar-brand" href="../index.html">Layla <span>Aqiqah</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="line"></div>
                     <div class="line"></div>
@@ -23,20 +24,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="about-us/about.html">Tentang Kami</a>
+                            <a class="nav-link" aria-current="page" href="../about-us/about.html">Tentang Kami</a>
                         </li>
                         
                         <!-- Layanan  -->
                         <li class="nav-item dropdown">
                             <button class="btn btn-dropdown dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Layanan
+                                Layanan 
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item nav-link" href="service/service.html">Kambing Guling</a></li>
-                                <li><a class="dropdown-item nav-link" href="service/service.html">Domba Aqiqah</a></li>
+                                <li><a class="dropdown-item nav-link" href="../service/service.html">Kambing Guling</a></li>
+                                <li><a class="dropdown-item nav-link" href="../service/service.html">Domba Aqiqah</a></li>
                             </ul>
                         </li>
                         <!-- layanan akhir -->
@@ -47,17 +48,17 @@
                                 Harga
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item nav-link" href="price/price-kambing.html">Kambing Guling</a></li>
-                                <li><a class="dropdown-item nav-link" href="price/price-domba.html">Domba Aqiqah</a></li>
+                                <li><a class="dropdown-item nav-link" href="../price/price-kambing.html">Kambing Guling</a></li>
+                                <li><a class="dropdown-item nav-link" href="../price/price-domba.html">Domba Aqiqah</a></li>
                             </ul>
                         </li>
                         <!-- harga akhir -->
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="galery/galery.html">Galeri</a>
+                            <a class="nav-link" aria-current="page" href="../galery/galery.html">Galeri</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="kontak/kontak.html">Kontak</a>
+                            <a class="nav-link active" aria-current="page" href="kontak.html">Kontak</a>
                         </li>
                     </ul>
                 </div>
@@ -66,67 +67,61 @@
     </header>
     <!-- navbar end -->
 
-    <!-- carousel start -->
-    <section id="hero">
-        <div class="hero">
-            <div class="judul text-center container">
-                <h5>- Kambing Guling -</h5>
-                <h1>AkMil</h1>
-                <p class="mb-4">Layanan penyedia Kambing Guling dan Domba Aqiqah untuk semua acara</p>
-                <div class="button">
-                    <a href="service/service.html" class="btn btn-light">Lihat Produk Kami</a>
-                    <a href="kontak/kontak.html" class="btn btn-warning">Order Sekarang</a>
+    <!-- form start -->
+    <section id="kontak">
+        <div class="kontak container">
+            <div class="row">
+
+
+                <div class="col-md-6 kiri">
+                    <!-- kiri -->
+                    <h6>Kontak Kami</h6>
+                    <div class="kontak-list">
+                        <div class="items d-flex">
+                            <i class="fi fi-sr-home"></i>
+                            <p>jalan Poncol Raya RT 02 RW 07 no 56 B pondok bambu kec Duren Sawit Jakarta Timur</p>
+                        </div>
+                        <div class="items d-flex">
+                            <i class="fi fi-sr-phone-call"></i>
+                            <p>0878 8224 8272</p>
+                        </div>
+                    </div>
+
+                    <h6 class="mt-4">Cari Cepat</h6>
+                    <div class="maps">
+                        <div class="img-maps">
+                            <h6>Klik Disini</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 kanan">
+
+                    <!-- kanan -->
+                    <form class="text-center" action="https://formspree.io/f/xeqbzrln"
+                    method="POST">
+                        <h6>Kirim Kami Pesan</h6>
+                        <div class="mb-3">
+                            <!-- <label for="Nama" class="form-label"></label> -->
+                            <input type="text" class="form-control" id="name" placeholder="Nama" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <!-- <label for="Email" class="form-label"></label> -->
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <!-- <label for="Message" class="form-label">Pesan</label><br> -->
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Pesan"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- carousel end -->
-
-    <!-- mengapa kami start -->
-    <section id="mengapa-kami">
-        <div class="mengapa-kami container text-center">
-            <h1 class="fw-bold text-center">Mengapa harus pilih kami ?</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                <!-- card 1 -->
-                <div class="col partner-card">
-                    <div class="card d-flex justify-content-center align-items-center">
-                        <div class="partner-icon mb-0">
-                            <img src="img/icon/badge-check.png" alt="" width="100">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-center">Kualitas Terbaik</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card 2 -->
-                <div class="col partner-card">
-                    <div class="card d-flex justify-content-center align-items-center">
-                        <div class="partner-icon mx-auto">
-                            <img src="img/icon/search-alt.png" alt="" width="100">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-center">Pilihan yang Luas</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card 3 -->
-                <div class="col partner-card">
-                    <div class="card d-flex justify-content-center align-items-center">
-                        <div class="partner-icon mx-auto">
-                            <img src="img/icon/shipping-fast.png" width="100">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-center">Pengiriman Tepat Waktu</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- mengapa kami end -->
+    <!-- form end -->
 
     <!-- footer start -->
     <footer>
@@ -165,8 +160,8 @@
         </div>
     </footer>
     <!-- footer end -->
-    
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="main/main.js"></script>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../main/main.js"></script>
 </body>
-</html>
+</html

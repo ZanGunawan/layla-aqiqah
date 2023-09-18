@@ -461,6 +461,357 @@ footer {
     }
 }
 
+// page price 
+#price {
+    height: max-content;
+    background-color: var(--colorSecondary);  
+    overflow-x: hidden;      
+    .price {
+        padding: 80px 0;
+        .kambing-guling {
+            h4 {
+                font-family: 'Fredoka', sans-serif;
+                // background-color: black;
+                font-size: 40px;
+            }
+            .judul {
+                font-size: 25px;
+                // width: 80%;
+                margin: 10px auto 5px; 
+            }
+            .row {
+                .col-sm-3 {
+                    .card {
+                        .card-body {
+                            p {
+                                margin-bottom: -5px;
+                            }
+                        }
+                    }
+                }
+                .col-sm-4, .col-sm-3 {
+                    .card {
+                        margin: 15px 0;
+                        .card-body {
+                            h5 {
+                                font-weight: 700;
+                                color: var(--colorSecondary);
+                            }
+                            h6 {
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                            p {
+                                font-weight: 500;
+                                color: grey;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:640px) {
+        .price {
+            .kambing-guling {
+                .row {
+                    .col-sm-3 {
+                        .card {
+                            .card-body {
+                                h6 {
+                                    font-size: 15px;
+                                }
+                                p {
+                                    margin-bottom: -5px;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:400px) {
+        .price {
+            .kambing-guling {
+                h4 {
+                    font-size: 30px;
+                    width: 80%;
+                    margin: 0 auto 5px; 
+                }
+                .judul {
+                    font-size: 20px;
+                    width: 80%;
+                    margin: 10px auto 5px; 
+                }
+                .row {
+                    .col-sm-4, .col-sm-3 {
+                        .card {
+                            margin: 10px 15px;
+                        }
+                    }
+                    .col-sm-3 {
+                        .card {
+                            .card-body {
+                                h6 {
+                                    font-size: 15px;
+                                }
+                                p {
+                                    margin-bottom: -5px;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
+// page galery 
+#galery {
+    padding: 70px 20px;
+    background-color: var(--colorSecondary);
+    .galery {
+        h6 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 7vmin;
+            font-weight: 700;
+        }
+        .row {
+            margin: 0 auto;
+            .bungkus-foto {
+                width: 25vmin;
+                height: 25vmin;
+                background-size: cover;
+                background-repeat: repeat;
+                margin: 5px;
+                transition: all .3s ease-in-out;
+            }
+            .bungkus-foto:hover {
+                transform: scale(1.05);
+            }
+            .img-1 {
+                background-image: url(../img/galery/1.jpeg);
+                
+                
+            }
+            .img-2 {
+                background-image: url(../img/galery/2.jpeg);
+            }
+            .img-3 {
+                background-image: url(../img/galery/3.jpeg);
+            }
+            .img-4 {
+                background-image: url(../img/galery/4.jpeg);
+            }
+            .img-5 {
+                background-image: url(../img/galery/5.jpeg);
+            }
+            .img-6 {
+                background-image: url(../img/galery/6.jpeg);
+            }
+            .img-7 {
+                background-image: url(../img/galery/7.jpeg);
+            }
+            .img-8 {
+                background-image: url(../img/galery/8.jpeg);
+            }
+            .img-9 {
+                background-image: url(../img/galery/9.jpeg);
+            }
+            .img-10 {
+                background-image: url(../img/galery/10.jpeg);
+            }
+            .img-11 {
+                background-image: url(../img/galery/11.jpeg);
+            }
+            .img-12 {
+                background-image: url(../img/galery/12.jpeg);
+            }
+            .img-13 {
+                background-image: url(../img/galery/13.jpeg);
+            }
+            .img-14 {
+                background-image: url(../img/galery/14.jpeg);
+            }
+            .img-15 {
+                background-image: url(../img/galery/15.jpeg);
+            }
+            .img-16 {
+                background-image: url(../img/galery/16.jpeg);
+            }
+            .img-17 {
+                background-image: url(../img/galery/17.jpeg);
+            }
+            .img-18 {
+                background-image: url(../img/galery/18.jpeg);
+            }
+            .img-19 {
+                background-image: url(../img/galery/19.jpeg);
+            }
+        }
+
+    }
+    @media screen and (max-width: 400px) {
+        .galery {
+            .row {
+                .bungkus-foto {
+                    width: 35vmin;
+                    height: 35vmin;
+                }
+            }
+        }            
+    }
+}
+
+// page kontak 
+#kontak {
+    height: max-content;
+    background-color: var(--colorSecondary);
+    .kontak {
+        padding: 100px 0;
+        .row {
+            .kiri {
+                padding: 30px 50px;
+                h6 {
+                    font-size: 5vmin;
+                    font-family: 'Fredoka', sans-serif;
+                    margin-bottom: 20px;
+                }
+                .kontak-list {
+                    .items {
+                        align-items: center;
+                        i {
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }                        
+                        p {
+                            width: 300px;
+                        }
+                    }   
+                }
+                .maps {
+                    width: 350px;
+                    height: 200px;
+                    background-image: url(../img/maps.jpeg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    .img-maps {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                        background-color: rgba( 29, 15, 3, 0.5);
+                        height: 100%;
+                        transition: .5s ease-in-out;
+                        h6 {
+                            transition: .5s ease-in-out;
+                        }
+                    }
+                    .img-maps:hover {
+                        background: none;
+                        h6 {
+                            display: none;
+                            transition: .5s ease-in-out;
+                        }
+                    }
+                }
+            }
+            .kanan {
+                form {
+                    border-radius: 15px;
+                    // background-color: #fff;
+                    padding: 30px 50px;
+                    h6 {
+                        font-size: 5vmin;
+                        font-family: 'Fredoka', sans-serif;
+                        margin-bottom: 20px;
+                    }
+                    .mb-3 {
+                        input {
+                            border-radius: 15px;
+                            border: none;
+                            background-color: #fff;
+                            height: 50px;
+                        }
+                        textarea {
+                            border-top-right-radius: 30px;
+                            border-bottom-left-radius: 30px;
+                            border: none;
+                            resize: none;
+                            background-color: #fff;
+                            width: 100%;
+                            height: 200px;
+                            padding: 12px;
+                        }
+                    }
+                    .btn {
+                        border-radius: 30px;
+                        width: 200px;
+                        height: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 758px) {
+        .kontak {
+            .row {
+                .kiri {
+                    order: 2;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:400px) {
+        .kontak {
+            padding: 100px 0px;
+            .row {
+                .kiri {
+                    padding-left: 70px;
+                    order: 2;
+                    margin-top: 20px;
+                    .kontak-list {
+                        .items {
+                            p {
+                                width: 250px;
+                            }
+                        }
+                    }
+                    .maps {
+                        width: 250px;
+                    }
+                }
+                .kanan {
+                    form {
+                        .mb-3 {
+                            input {
+                                border-radius: 15px;
+                                border: none;
+                                background-color: #fff;
+                                height: 50px;
+                            }
+                            textarea {
+                                border-top-right-radius: 30px;
+                                border-bottom-left-radius: 30px;
+                                border: none;
+                                resize: none;
+                                background-color: #fff;
+                                width: 100%;
+                                height: 200px;
+                                padding: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
