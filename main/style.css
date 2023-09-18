@@ -265,7 +265,7 @@ footer .footer .row div ul li a:hover {
   #about-us .about-us .row .kiri {
     padding: 0 50px;
   }
-  #about-us .about-us .row .kiri .about-desc .btn {
+  #about-us .about-us .row .kiri .about-desc a {
     margin-bottom: 10px;
   }
   #about-us .about-us .row .kanan {
